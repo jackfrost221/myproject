@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         en: {
             watt: 1,
             Joule: 100,
-            Horsepower: 745.7
+            hp: 745.7
         }
     };
 
