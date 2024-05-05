@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    background-image: linear-gradient(135deg, hsla(229, 76%, 66%, 0.7) 0%, hsla(270, 37%, 46%, 0.7) 100%);
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: #7a00dd9f;
+    background-image: url(sunset-background-digital-art-wallpaper-2560x1080_14.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* __________________________________________________________ */
+/* __________________________________________________________ */
+/* header */
+#header {
+    height: 6vh;
+    display: flex;
+    width: 270px;  /* أوسع لتكون متناسبة مع الشاشة */
+    align-items: center;
+    padding: 8px;
+}
+
+#header div {
+    width: 100%;
+    height: 100%; /* ليكون الارتفاع متناسب مع الحاوية */
+    border: #F3F2F2 solid 1px;
+    border-radius: 0 19px 0 0;
+    display: flex;  /* استخدام فليكس للتحكم بتوزيع العناصر */
+    align-items: center;  /* لتوسيط العناصر عموديا */
+}
+
+select {
+    height: 100%;  /* نسبة مئوية من ارتفاع الحاوية */
+    
+    border-radius: 0 16px 0 0;
+    border: none;
+    text-align: center;
+    outline: none;
+    background-color: hwb(0 95% 5% / 0.9);
+    font-size: large;
+    color: #50068dec;
+   
+}
+
+label {
+    flex: 1;  /* توسيع لاستهلاك الفضاء المتبقي */
+    text-align: center; 
+     /* مسافة بين النص والقائمة المنسدلة */
+}
+
+/* _______________________________________________________________ */
+/* _______________________________________________________________ */
+/* body */
+#content {
+    height: 58vh;
+
+}
+
+
+#frame {
+    width: 30%;
+}
+
+#enter {
+    width: 100%;
+    height: 7vh;
+    background-color: #f3f2f2e1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+
+    color: #50068dec;
+    border: #50068dec solid 1px;
+}
+
+#production {
+    width: 100%;
+    height: 7vh;
+    color: #50068dec;
+
+    box-sizing: border-box;
+
+    padding: 8px;
+    background-color: #f3f2f2e1;
+    border-radius: 8px;
+    border: #50068dec solid 1px;
+}
+
+.clorwh {
+    color: hwb(0 95% 5%);
+}
+
+#middle {
+    margin: 2vh 0;
+    height: 6vh;
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* لتخصيص مظهر السهمين في متصفحات Chrome و Safari */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: 50%;
+}
+
+/* لتخصيص مظهر السهمين في Firefox */
+input[type=number]::-moz-inner-spin-button,
+input[type=number]::-moz-outer-spin-button {
+    height: 50%;
+}
+
+/* تخصيص لون النص وحجم الخط لل placeholder */
+input::placeholder {
+    color: #50068d9f;
+    /* لون النص */
+    font-size: 18px;
+    /* حجم الخط */
+    padding-left: 8px;
+    text-align: center;
+    /* يمكنك تخصيص المزيد من الخصائص حسب احتياجاتك */
+}
+
+input {
+    font-size: 18px;
+    box-sizing: border-box;
+
+
+}
+
+.dropbtn {
+    background-color: hwb(0 95% 5% / 0.966);
+    color: #50068dec;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.dropdown {
+    position: relative;
+    color: #50068dec;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3f3;
+    min-width: 100%;
+    height: 10vh;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    overflow: auto;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.dropdown-content::-webkit-scrollbar {
+    width: 5px;
+    /* للأفقي */
+    height: 5px;
+    /* للعمودي */
+}
+
+.dropdown-content::-webkit-scrollbar-thumb {
+    background: #b9b9b9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: hwb(0 95% 5% / 0.781);
+}
+
+#into {
+    margin: 0 12%;
+}
+
+.borderR {
+    border-radius: 8px 0px 0px 0px;
+}
+
+.borderl {
+    border-radius: 0px 8px 0px 0px;
+}
+
+.line {
+    border: #f1f1f1 solid 1px;
+    width: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+li {
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #b9b9b9;
+}
+
+/* _________________________________________________ */
+/* _________________________________________________ */
+/* footer */
+
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #f3f2f2e1;
+    border-radius: 10vw 10vw 0px 0px;
+    padding-top: 2px;
+    max-height: 30px; /* ارتفاع افتراضي */
+    overflow: hidden; /* لضمان عدم ظهور المحتوى الزائد عند التحويم */
+    transition:  max-height .5s ease-in-out; /* تحويل تأثير max-height */
+}
+
+#footer:hover {
+    max-height: 30vh;
+   height:210px; /* ارتفاع عند التحويم */
+}
+
+.LL {
+    width: 50px;
+    height: 2px;
+    background-color: #50068dc7;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#footer h4 {
+    text-align: center;
+    color: #50068dec;
+    padding: 16px;
+}
+.par{
+    text-align: center;
+    margin-top: 5px;
+    color: #660cafec;
+}
+a:hover{
+    color: rgb(200, 3, 226);
+}
+
+@media (max-width: 767px) {
+    #frame {
+        width: 75%;
+    }    
+}
+@media (min-width: 768px) {
+    #frame {
+        width: 65%;
+    }
+}
+@media (min-width: 992px) {
+    #frame {
+        width: 55%;
+    }
+}
+@media (min-width: 1200px) {
+    #frame {
+        width: 35%;
+    } 
+}

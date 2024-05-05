@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {   
+    background-color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.will {
+    font-size: large;
+    line-height: 30px;
+}
+
+.header {
+    background-color: #f0f0f0d8;
+    border-radius: 0px 0px 16px 16px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 5px 30px;
+    justify-content: center;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    
+    max-width: 600px; /* تحديد أقصى عرض للعنصر */
+}
+
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 64px;
+    color: #1f1f1f;
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.cont {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+a {
+    border: #333333 solid 2px;
+    border-radius: 10px;
+    color:  #333333;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #d6d6d6;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.margin {
+    margin-top: 40px;
+}
+.content_{
+    width: 80%;
+}
+.article {
+    color: #666666;
+    margin-top: 50px;
+    direction: rtl;
+    width: 80%;
+margin: auto;
+    background-color: #f5f5f5;
+    border: #666666 solid 2px;
+    padding: 30px;
+}
+
+path {
+    fill: #666666;
+}
+
+.pargragh {
+    width: 80%;
+
+    text-align: right;
+    padding: 30px;
+    background-color: #ffffff;
+    /* خلفية العنصر */
+    border-radius: 10px;
+    /* تدوير الحواف */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* ظل العنصر */
+}
+
+.pargragh h2 {
+    font-size: 28px;
+    color: #333333;
+    /* لون النص */
+    margin-bottom: 20px;
+}
+
+.pargragh .will {
+    font-size: 18px;
+    line-height: 1.6;
+    /* تباعد الأسطر */
+    color: #666666;
+    /* لون النص */
+    margin-bottom: 15px;
+}
+
+.pargragh .will strong {
+    font-weight: bold;
+    color: #000000;
+    /* لون النص */
+}
+
+.pargragh p:last-child {
+    margin-bottom: 0;
+    /* للتخلص من التباعد الزائد بعد آخر فقرة */
+}
+
+body::-webkit-scrollbar {
+    width: 1vw;
+    /* للأفقي */
+    height: 5vh;
+    /* للعمودي */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #b9b9b991;
+}
