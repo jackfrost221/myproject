@@ -4,7 +4,7 @@
 }
 
 body {   
-    background-color: #000000;
+    background-color: #040310;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -65,7 +65,7 @@ ul {
 }
 .article {
     color: #666666;
-  
+       border-radius: 10px;
     direction: rtl;
     width: 80%;
 margin: auto;
